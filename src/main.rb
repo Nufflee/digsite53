@@ -3,8 +3,8 @@
 #   - Wikipedia: https://en.wikipedia.org/wiki/Domain_Name_System
 
 require "socket"
-require "./extensions.rb"
-require "./network_buffer.rb"
+require_relative "./extensions.rb"
+require_relative "./network_buffer.rb"
 
 server = UDPSocket.new
 

@@ -25,11 +25,11 @@ class Addrinfo
     else
       raise ArgumentError.new "Cannot stringify an `addrinfo` without an IP address"
     end
-  
+
     if self.ip_port != 0
       result += ":#{self.ip_port}"
     end
-  
+
     result
   end
 end
