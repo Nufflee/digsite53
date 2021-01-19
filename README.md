@@ -13,7 +13,7 @@ The goal of this project is to create a simple configurable DNS server that can 
   - [ ] Set server adress and port
   - [ ] Configure custom DNS entries as a key value map
   - [ ] Change DNS fallthrough server
-- [ ] Fallthrough to an actual DNS server/source (like [1.1.1.1](1.1.1.1))
+- [ ] Fallthrough to an actual DNS server/source (like [1.1.1.1](https://1.1.1.1))
 - [ ] Other record types
 - [ ] Unit tests
 
