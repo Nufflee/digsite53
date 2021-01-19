@@ -15,6 +15,7 @@ The goal of this project is to create a simple configurable DNS server that can 
   - [ ] Change DNS fallthrough server
 - [ ] Fallthrough to an actual DNS server/source (like [1.1.1.1](1.1.1.1))
 - [ ] Other record types
+- [ ] Unit tests
 
 ## FAQ
 ### 1. Where does the name `digsite:53` come from?
