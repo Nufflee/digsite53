@@ -1,0 +1,15 @@
+/* 
+This is a custom VS Code tmLanguage entry for this project's attr_serialize_* attributes. 
+Using it is not recommended as it requires monkey-patching your vscode-ruby extension. 
+In short, you have to add these entries to "patterns" in `~/.vscode/extensions/wingrunr21.vscode-ruby-<INSERT VERSION HERE>/syntaxes/ruby.cson.json`
+*/
+{
+  "comment": "custom highlighting for attr_serialize_*",
+  "match": "attr_serialize_accessor|attr_serialize_writer|attr_serialize_reader|attr_serialize",
+  "name": "keyword.other.special-method.ruby"
+},
+{
+  "comment": "custom highlighting for types used with attr_serialize_*",
+  "match": ":u8|:i8|:u16|:i16|:u32|:i32|:string",
+  "name": "entity.name.type.class.ruby"
+}
